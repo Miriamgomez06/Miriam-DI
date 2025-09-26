@@ -1,8 +1,6 @@
-import model.Encargo;
-import model.Persona;
-import model.Tarea;
-import model.TareaProfesional;
+import model.*;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Main {
@@ -32,7 +30,13 @@ public class Main {
         TareaProfesional tareaProfesional = new TareaProfesional("tarea1", "descripcion", true,5,10000, new Date());
         System.out.println(tareaProfesional);
 
-
+        TareaPersonal tareaPersonal = new TareaPersonal("tarea2","descripcion",2,"alcorcon");
+        ArrayList<Tarea> tareas = new ArrayList<>();
+        tareas.add(tareaPersonal);
+        tareas.add(tareaProfesional);
+        for (Tarea tarea1: tareas){
+            System.out.println(tarea1);
+        }
 
 
     }

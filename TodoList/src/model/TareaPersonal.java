@@ -28,5 +28,5 @@ public class TareaPersonal extends Tarea{
         this.ubicacion = ubicacion;
     }
 
-    
+
 }

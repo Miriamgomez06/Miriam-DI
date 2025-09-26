@@ -1,10 +1,7 @@
 package model;
 
 public class Persona {
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     // Nombre, apellido, dni, edad
     private String dni, nombre, apellido;
     private int edad;
@@ -38,30 +35,4 @@ public class Persona {
     public String getApellido() {
         return apellido;
     }
-<<<<<<< Updated upstream
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
     }
-
-    public int getEdad() {
-        return edad;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-
-    @Override
-    public String toString() {
-        return "Persona{" +
-                "dni='" + dni + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", edad=" + edad +
-                '}';
-    }
-}
-=======
-}
->>>>>>> Stashed changes

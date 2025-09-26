@@ -1,10 +1,7 @@
 package model;
 
 public class Encargo {
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     private int id;
     private String descripcion;
     private boolean completada;
@@ -18,15 +15,6 @@ public class Encargo {
     public Encargo() {
     }
 
-<<<<<<< Updated upstream
-    public void mostrarDatos() {
-        System.out.println("id = " + id);
-        System.out.println("descripcion = " + descripcion);
-        System.out.println("completada = " + completada);
-    }
-
-=======
->>>>>>> Stashed changes
     public int getId() {
         return id;
     }
@@ -60,7 +48,3 @@ public class Encargo {
                 '}';
     }
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
