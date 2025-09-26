@@ -1,7 +1,6 @@
 package model;
 
 public class Encargo {
-
     private int id;
     private String descripcion;
     private boolean completada;
@@ -13,6 +12,12 @@ public class Encargo {
     }
 
     public Encargo() {
+    }
+
+    public void mostrarDatos() {
+        System.out.println("id = " + id);
+        System.out.println("descripcion = " + descripcion);
+        System.out.println("completada = " + completada);
     }
 
     public int getId() {
@@ -48,3 +53,4 @@ public class Encargo {
                 '}';
     }
 }
+
