@@ -1,93 +1,71 @@
 import java.util.ArrayList;
+import java.util.List;
 
-public abstract class Tarea implements ElementoPlanificador{
+public abstract class Tarea implements ElementoPlanificador {
+    protected int id;
+    protected String titulo;
+    protected String descripcion;
+    protected String fecha;
+    protected Prioridad prioridad;
+    protected boolean completada;
+    protected List<Tarea> subtareas;
+    protected List<String> personas;
+    protected List<String> encargos;
 
-    int id;
-    String titulo, descripcion, fecha;
-    boolean completada;
-    ArrayList<Tarea>subtareas;
-    ArrayList<String>personas;
-    ArrayList<String>encargos;
-
-    public Tarea() {
-    }
-
-    public Tarea(boolean completada, String descripcion, ArrayList<String> encargos, String fecha, int id, ArrayList<String> personas, ArrayList<Tarea> subtareas, String titulo) {
-        this.completada = completada;
-        this.descripcion = descripcion;
-        this.encargos = encargos;
-        this.fecha = fecha;
+    public Tarea(int id, String titulo, String descripcion, String fecha, Prioridad prioridad) {
         this.id = id;
-        this.personas = personas;
-        this.subtareas = subtareas;
         this.titulo = titulo;
-    }
-
-    public boolean isCompletada() {
-        return completada;
-    }
-
-    public void setCompletada(boolean completada) {
-        this.completada = completada;
-    }
-
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
-    }
-
-    public ArrayList<String> getEncargos() {
-        return encargos;
-    }
-
-    public void setEncargos(ArrayList<String> encargos) {
-        this.encargos = encargos;
-    }
-
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getFecha() {
-        return fecha;
-    }
-
-    public void setFecha(String fecha) {
         this.fecha = fecha;
+        this.prioridad = prioridad;
+        this.completada = false;
+        this.subtareas = new ArrayList<>();
+        this.personas = new ArrayList<>();
+        this.encargos = new ArrayList<>();
     }
 
-    public ArrayList<String> getPersonas() {
-        return personas;
+    // Getters y Setters
+    public int getId() { return id; }
+    public String getTitulo() { return titulo; }
+    public void setTitulo(String titulo) { this.titulo = titulo; }
+    public String getDescripcion() { return descripcion; }
+    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+    public String getFecha() { return fecha; }
+    public void setFecha(String fecha) { this.fecha = fecha; }
+    public Prioridad getPrioridad() { return prioridad; }
+    public void setPrioridad(Prioridad prioridad) { this.prioridad = prioridad; }
+    public boolean isCompletada() { return completada; }
+
+    public List<Tarea> getSubtareas() { return subtareas; }
+    public List<String> getPersonas() { return personas; }
+    public List<String> getEncargos() { return encargos; }
+
+    public void agregarSubtarea(Tarea subtarea) {
+        subtareas.add(subtarea);
     }
 
-    public void setPersonas(ArrayList<String> personas) {
-        this.personas = personas;
+    public void agregarPersona(String persona) {
+        personas.add(persona);
     }
 
-    public ArrayList<Tarea> getSubtareas() {
-        return subtareas;
+    public void agregarEncargo(String encargo) {
+        encargos.add(encargo);
     }
 
-    public void setSubtareas(ArrayList<Tarea> subtareas) {
-        this.subtareas = subtareas;
+    public void completar() {
+        if (subtareas.isEmpty() || todasSubtareasCompletadas()) {
+            this.completada = true;
+        }
     }
 
-    @Override
-    public String getTitulo() {
-        return titulo;
+    private boolean todasSubtareasCompletadas() {
+        for (Tarea subtarea : subtareas) {
+            if (!subtarea.isCompletada()) {
+                return false;
+            }
+        }
+        return true;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-
+    public abstract void mostrarDetalles();
 }
