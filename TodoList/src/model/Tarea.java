@@ -1,6 +1,6 @@
 package model;
 
-public class Tarea {
+public abstract class Tarea {
 
     // una tarea tiene asociadas una serie de personas
     // cuando se crea la tarea es necesario pedir cuantas personas (NO QUE PERSONAS)
@@ -31,6 +31,9 @@ public class Tarea {
         this.descripcion = descripcion;
         encargados = new Persona[numeroPersonas];
     }
+
+    //enviarRecordatorio -> totalmente diferente de TPro TPer
+    abstract public void enviarRecordatorio();
 
     // metodos -> getter / setter
 
