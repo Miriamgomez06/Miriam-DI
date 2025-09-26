@@ -1,6 +1,10 @@
 package model;
 
 public class Persona {
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     // Nombre, apellido, dni, edad
     private String dni, nombre, apellido;
     private int edad;
@@ -34,6 +38,7 @@ public class Persona {
     public String getApellido() {
         return apellido;
     }
+<<<<<<< Updated upstream
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
@@ -57,3 +62,6 @@ public class Persona {
                 '}';
     }
 }
+=======
+}
+>>>>>>> Stashed changes
