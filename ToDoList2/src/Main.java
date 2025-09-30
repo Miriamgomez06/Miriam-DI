@@ -1,9 +1,9 @@
+import model.*;
 import java.util.Scanner;
 public class Main {
 
 
-    public class GestionTareasApp {
-        private static Planificador planificador = new Planificador();
+      private static Planificador planificador = new Planificador();
         private static Scanner scanner = new Scanner(System.in);
 
         public static void main(String[] args) {
@@ -49,7 +49,7 @@ public class Main {
         }
 
         private static void registrarTarea() {
-            System.out.println("\n=== REGISTRAR TAREA ===");
+            System.out.println("REGISTRAR TAREA");
             System.out.println("1. Tarea de Ocio");
             System.out.println("2. Tarea de Trabajo");
             System.out.print("Seleccione el tipo de tarea: ");
@@ -61,7 +61,7 @@ public class Main {
             String titulo = scanner.nextLine();
             System.out.print("Descripción: ");
             String descripcion = scanner.nextLine();
-            System.out.print("Fecha (dd/mm/aaaa): ");
+            System.out.print("Fecha: ");
             String fecha = scanner.nextLine();
 
             System.out.println("Prioridad (1-Baja, 2-Media, 3-Alta): ");
@@ -86,8 +86,8 @@ public class Main {
                 tarea = new TareaTrabajo(id, titulo, descripcion, fecha, prioridad, proyecto);
             }
 
-            // Preguntar si depende de otra tarea
-            System.out.print("¿Depende de otra tarea? (s/n): ");
+
+            System.out.print("¿Depende de otra tarea?: ");
             if (scanner.nextLine().equalsIgnoreCase("s")) {
                 System.out.print("ID de la tarea padre: ");
                 int idPadre = scanner.nextInt();
@@ -108,7 +108,7 @@ public class Main {
         }
 
         private static void registrarLista() {
-            System.out.println("\n=== REGISTRAR LISTA ===");
+            System.out.println("REGISTRAR LISTA");
             int id = planificador.getSiguienteId();
             Lista lista = new Lista(id);
             planificador.agregarElemento(lista);
@@ -228,4 +228,4 @@ public class Main {
             planificador.agregarElementoALista(id, elemento);
         }
     }
-}
+1

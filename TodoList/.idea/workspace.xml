@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32e9e429-166d-482c-bf9a-dd50e286c032" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Tarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TareaPersonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TareaPersonal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TareaProfesional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TareaProfesional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tareas/src/TareaTrabajo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tareas/src/model/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tareas/src/model/Planificador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList2/src/model/ElementoPlanificador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList2/src/model/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList2/src/model/Planificador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList2/src/model/Prioridad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList2/src/model/Tarea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList2/src/model/TareaOcio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList2/src/model/TareaTrabajo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TareaGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tareas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/src/Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tareas/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/src/Planificador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tareas/src/Planificador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/src/Tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tareas/src/Tarea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/src/TareaOcio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tareas/src/TareaOcio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +49,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

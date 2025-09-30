@@ -1,3 +1,5 @@
+package model;
+
 public class TareaOcio extends Tarea {
     private String ubicacion;
     private double presupuesto;
@@ -41,4 +43,3 @@ public class TareaOcio extends Tarea {
         System.out.println("Subtareas: " + subtareas.size());
     }
 }
-

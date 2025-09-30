@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94649d24-61ab-468f-a8ac-7b385d7fdbc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TareaTrabajo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Planificador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoList/src/TareaGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lista.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Planificador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planificador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TareaOcio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TareaOcio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,29 +26,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="33EaAgwJNasZIUpv0JnIIEk0NVq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,8 +12,22 @@ public class Lista implements ElementoPlanificador {
         this.elementos = new ArrayList<>();
     }
 
-    public int getId() { return id; }
-    public List<String> getElementos() { return elementos; }
+    public List<String> getElementos() {
+        return elementos;
+    }
+
+    public void setElementos(List<String> elementos) {
+        this.elementos = elementos;
+    }
+
+    @Override
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public void agregarElemento(String elemento) {
         elementos.add(elemento);
@@ -28,7 +44,7 @@ public class Lista implements ElementoPlanificador {
 
     @Override
     public void mostrarDetalles() {
-        System.out.println("=== Lista ===");
+        System.out.println("Lista");
         System.out.println("ID: " + id);
         System.out.println("Elementos: " + elementos.size());
         for (int i = 0; i < elementos.size(); i++) {
