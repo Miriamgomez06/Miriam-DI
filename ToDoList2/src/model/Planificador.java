@@ -81,7 +81,7 @@ public class Planificador {
         return siguienteId++;
     }
 
-    
+
     public void agregarPersonaATarea(int idTarea, String persona) {
         Tarea tarea = buscarTareaPorId(idTarea);
         if (tarea != null) {
